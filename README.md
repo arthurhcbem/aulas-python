@@ -11,8 +11,9 @@ desenvolvimento do conteúdo visto nas aulas de python
 
   ![dollynho_chamando_vamos_la](https://static.wikia.nocookie.net/nn-games/images/1/13/Doas.jpg/revision/latest?cb=20200721172336&path-prefix=pt-br)
 
-  #exercicios de fixação:
-  ##prática de exercícios com estruturas condicionais
+  # exercicios de fixação:
+  ## prática de exercícios com estruturas condicionais
+  Escreva um programa que pergunte o nome de um usuário. Se o nome for "Alice" ou "Bob", o programa deve imprimir uma saudação especial: (f"Olá, {nome}! Como está você?"). Caso contrário, deve imprimir uma saudação comum: (f"olá {nome}!")
 
 
 ```py
@@ -25,7 +26,14 @@ elif nome== "Bob":
 
 else:
   print(f"olá {nome}!")
+```
+
+Aqui, expliquei que se o nome inserido pelo usuário for Alice ou se for Bob, ele deve imprimir a saudação especial. Para qualquer outro resultado, deveria ser impressa a saudação normal.
+
+## prática de exercícios com operadores aritméticos:
+Crie um programa que peça ao usuário para digitar um número **inteiro**. Em seguida, o programa deve verificar se o número é par ou impar e imprimir a mensagem correspondente
+
 ```py
 
-  
+
   
